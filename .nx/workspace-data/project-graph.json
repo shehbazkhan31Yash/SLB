@@ -10,9 +10,7 @@
         "sourceRoot": "libs/features/destinations-board/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:feature"
-        ],
+        "tags": ["type:feature"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -27,9 +25,7 @@
         "sourceRoot": "libs/features/product-onboarding/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:feature"
-        ],
+        "tags": ["type:feature"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -44,9 +40,7 @@
         "sourceRoot": "libs/features/reviewer-console/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:feature"
-        ],
+        "tags": ["type:feature"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -61,9 +55,7 @@
         "sourceRoot": "libs/features/market-material/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:feature"
-        ],
+        "tags": ["type:feature"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -78,9 +70,7 @@
         "sourceRoot": "libs/features/qualification/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:feature"
-        ],
+        "tags": ["type:feature"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -95,9 +85,7 @@
         "sourceRoot": "libs/features/commercial/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:feature"
-        ],
+        "tags": ["type:feature"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -112,9 +100,7 @@
         "sourceRoot": "libs/features/versioning/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:feature"
-        ],
+        "tags": ["type:feature"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -129,9 +115,7 @@
         "sourceRoot": "libs/features/dashboard/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:feature"
-        ],
+        "tags": ["type:feature"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -146,9 +130,7 @@
         "sourceRoot": "libs/features/legal/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:feature"
-        ],
+        "tags": ["type:feature"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -195,9 +177,7 @@
               "outputPath": "dist/apps/shell",
               "index": "apps/shell/src/index.html",
               "browser": "apps/shell/src/main.ts",
-              "polyfills": [
-                "zone.js"
-              ],
+              "polyfills": ["zone.js"],
               "prerender": false,
               "ssr": false,
               "tsConfig": "apps/shell/tsconfig.app.json",
@@ -207,9 +187,7 @@
                 "apps/shell/src/manifest.webmanifest",
                 "apps/shell/src/robots.txt"
               ],
-              "styles": [
-                "apps/shell/src/styles.scss"
-              ],
+              "styles": ["apps/shell/src/styles.scss"],
               "scripts": []
             },
             "configurations": {
@@ -239,13 +217,8 @@
             },
             "defaultConfiguration": "production",
             "parallelism": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ],
+            "dependsOn": ["^build"],
+            "inputs": ["production", "^production"],
             "cache": true
           },
           "serve": {
@@ -267,27 +240,18 @@
             "configurations": {},
             "options": {},
             "parallelism": true,
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json"
-            ],
+            "inputs": ["default", "{workspaceRoot}/.eslintrc.json"],
             "cache": true
           },
           "test": {
             "executor": "@nx/jest:jest",
-            "outputs": [
-              "{workspaceRoot}/coverage/{projectRoot}"
-            ],
+            "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
             "options": {
               "jestConfig": "apps/shell/jest.config.ts"
             },
             "configurations": {},
             "parallelism": true,
-            "inputs": [
-              "default",
-              "^production",
-              "{workspaceRoot}/vitest.config.ts"
-            ],
+            "inputs": ["default", "^production", "{workspaceRoot}/vitest.config.ts"],
             "cache": true
           }
         },
@@ -304,9 +268,7 @@
         "sourceRoot": "libs/state/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:state"
-        ],
+        "tags": ["type:state"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -321,9 +283,7 @@
         "sourceRoot": "libs/utils/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:util"
-        ],
+        "tags": ["type:util"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -338,9 +298,7 @@
         "sourceRoot": "libs/auth/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:core"
-        ],
+        "tags": ["type:core"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -355,9 +313,7 @@
         "sourceRoot": "libs/core/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:core"
-        ],
+        "tags": ["type:core"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -372,9 +328,7 @@
         "sourceRoot": "libs/api/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:data-access"
-        ],
+        "tags": ["type:data-access"],
         "implicitDependencies": [],
         "targets": {}
       }
@@ -389,9 +343,7 @@
         "sourceRoot": "libs/ui/src",
         "prefix": "lib",
         "projectType": "library",
-        "tags": [
-          "type:ui"
-        ],
+        "tags": ["type:ui"],
         "targets": {
           "storybook": {
             "executor": "@storybook/angular:start-storybook",
@@ -34841,5 +34793,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1765433828409
+  "computedAt": 1765439045968
 }
