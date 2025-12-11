@@ -1,0 +1,8 @@
+{
+  "name": "features-legal",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/features/legal/src",
+  "prefix": "lib",
+  "tags": ["type:feature"],
+  "projectType": "library"
+}

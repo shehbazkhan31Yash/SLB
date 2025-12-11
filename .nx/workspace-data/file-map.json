@@ -1,0 +1,880 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.3",
+  "pathMappings": {
+    "@alm-platform/api": [
+      "libs/api/src/index.ts"
+    ],
+    "@alm-platform/auth": [
+      "libs/auth/src/index.ts"
+    ],
+    "@alm-platform/core": [
+      "libs/core/src/index.ts"
+    ],
+    "@alm-platform/state": [
+      "libs/state/src/index.ts"
+    ],
+    "@alm-platform/ui": [
+      "libs/ui/src/index.ts"
+    ],
+    "@alm-platform/utils": [
+      "libs/utils/src/index.ts"
+    ],
+    "@alm-platform/features/commercial": [
+      "libs/features/commercial/src/index.ts"
+    ],
+    "@alm-platform/features/dashboard": [
+      "libs/features/dashboard/src/index.ts"
+    ],
+    "@alm-platform/features/destinations-board": [
+      "libs/features/destinations-board/src/index.ts"
+    ],
+    "@alm-platform/features/legal": [
+      "libs/features/legal/src/index.ts"
+    ],
+    "@alm-platform/features/market-material": [
+      "libs/features/market-material/src/index.ts"
+    ],
+    "@alm-platform/features/product-onboarding": [
+      "libs/features/product-onboarding/src/index.ts"
+    ],
+    "@alm-platform/features/qualification": [
+      "libs/features/qualification/src/index.ts"
+    ],
+    "@alm-platform/features/reviewer-console": [
+      "libs/features/reviewer-console/src/index.ts"
+    ],
+    "@alm-platform/features/versioning": [
+      "libs/features/versioning/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "projectFileMap": {
+      "features-reviewer-console": [
+        {
+          "file": "libs/features/reviewer-console/project.json",
+          "hash": "6710615471560859185"
+        },
+        {
+          "file": "libs/features/reviewer-console/src/index.ts",
+          "hash": "9541590298994937207"
+        },
+        {
+          "file": "libs/features/reviewer-console/src/lib/components/reviewer-console.component.ts",
+          "hash": "9738857246082889207",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/material",
+            "ui",
+            "auth"
+          ]
+        },
+        {
+          "file": "libs/features/reviewer-console/src/lib/reviewer.routes.ts",
+          "hash": "7829075019648401566",
+          "deps": [
+            "npm:@angular/router",
+            "auth"
+          ]
+        }
+      ],
+      "features-dashboard": [
+        {
+          "file": "libs/features/dashboard/project.json",
+          "hash": "9181595223747165510"
+        },
+        {
+          "file": "libs/features/dashboard/src/index.ts",
+          "hash": "10512312592221761579"
+        },
+        {
+          "file": "libs/features/dashboard/src/lib/components/dashboard.component.scss",
+          "hash": "13816153797132830675"
+        },
+        {
+          "file": "libs/features/dashboard/src/lib/components/dashboard.component.ts",
+          "hash": "17620839151655611188",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "ui"
+          ]
+        },
+        {
+          "file": "libs/features/dashboard/src/lib/dashboard.routes.ts",
+          "hash": "4954876340896941833",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        }
+      ],
+      "features-product-onboarding": [
+        {
+          "file": "libs/features/product-onboarding/project.json",
+          "hash": "67581627459630462"
+        },
+        {
+          "file": "libs/features/product-onboarding/src/index.ts",
+          "hash": "8513806469953606318"
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/components/product-detail/product-detail.component.ts",
+          "hash": "17243561319943529142",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "ui"
+          ]
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/components/product-form/product-form.component.ts",
+          "hash": "11939249344042551891",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:@ngrx/store",
+            "npm:@angular/material",
+            "api"
+          ]
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/components/product-list/product-list.component.spec.ts",
+          "hash": "9824367264428977897",
+          "deps": [
+            "npm:vitest",
+            "npm:@angular/core",
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/components/product-list/product-list.component.ts",
+          "hash": "9519665558103321179",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@ngrx/store",
+            "npm:@angular/material",
+            "ui"
+          ]
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/product.routes.ts",
+          "hash": "10534581174053035699",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/store/index.ts",
+          "hash": "13998312501570217375"
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/store/product.actions.ts",
+          "hash": "9379443284128268018",
+          "deps": [
+            "npm:@ngrx/store",
+            "api"
+          ]
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/store/product.effects.ts",
+          "hash": "3619047191995478246",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/effects",
+            "api",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/store/product.reducer.ts",
+          "hash": "3678949811205606829",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/store/product.selectors.ts",
+          "hash": "17343496352772551193",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/features/product-onboarding/src/lib/store/product.state.ts",
+          "hash": "12547126163479593860",
+          "deps": [
+            "npm:@ngrx/entity",
+            "api"
+          ]
+        }
+      ],
+      "features-qualification": [
+        {
+          "file": "libs/features/qualification/project.json",
+          "hash": "7782618846619577835"
+        },
+        {
+          "file": "libs/features/qualification/src/index.ts",
+          "hash": "12397816723778985970"
+        },
+        {
+          "file": "libs/features/qualification/src/lib/components/automated-checks.component.ts",
+          "hash": "5118140043598318590",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "ui",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/features/qualification/src/lib/components/questionnaire.component.ts",
+          "hash": "14314066953988476085",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@ngx-formly/core",
+            "npm:@ngx-formly/material",
+            "npm:@angular/material",
+            "api",
+            "ui"
+          ]
+        },
+        {
+          "file": "libs/features/qualification/src/lib/qualification.routes.ts",
+          "hash": "3064442109229860459",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/features/qualification/src/lib/schemas/security-questionnaire.json",
+          "hash": "16914553319992398513"
+        }
+      ],
+      "shell-e2e": [
+        {
+          "file": "apps/shell-e2e/playwright.config.ts",
+          "hash": "11665628696790494342",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/shell-e2e/project.json",
+          "hash": "8478865910300840940"
+        },
+        {
+          "file": "apps/shell-e2e/src/example.spec.ts",
+          "hash": "5931838471574691984",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "file": "libs/ui/.storybook/main.ts",
+          "hash": "17104071973695900403",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "libs/ui/project.json",
+          "hash": "2264109092855679013"
+        },
+        {
+          "file": "libs/ui/src/index.ts",
+          "hash": "3367346555050999657"
+        },
+        {
+          "file": "libs/ui/src/lib/components/card/card.component.ts",
+          "hash": "18362008596091774776",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/components/data-table/data-table.component.ts",
+          "hash": "14218584440558987149",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/components/form-section/form-section.component.ts",
+          "hash": "3203034562600765111",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/components/status-chip/status-chip.component.stories.ts",
+          "hash": "6910657130938834970",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/components/status-chip/status-chip.component.ts",
+          "hash": "12154902337812573557",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/components/upload-field/upload-field.component.ts",
+          "hash": "6823363407599638216",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        }
+      ],
+      "features-destinations-board": [
+        {
+          "file": "libs/features/destinations-board/project.json",
+          "hash": "6844790539192018118"
+        },
+        {
+          "file": "libs/features/destinations-board/src/index.ts",
+          "hash": "5047823327871052596"
+        },
+        {
+          "file": "libs/features/destinations-board/src/lib/components/destinations-board.component.ts",
+          "hash": "5160345694347167287",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "ui"
+          ]
+        },
+        {
+          "file": "libs/features/destinations-board/src/lib/destinations.routes.ts",
+          "hash": "7900060991771439216",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/features/destinations-board/src/lib/store/destinations.state.ts",
+          "hash": "1190417515480054141",
+          "deps": [
+            "core"
+          ]
+        }
+      ],
+      "features-legal": [
+        {
+          "file": "libs/features/legal/project.json",
+          "hash": "12795974176333037462"
+        },
+        {
+          "file": "libs/features/legal/src/index.ts",
+          "hash": "15661220240369603708"
+        },
+        {
+          "file": "libs/features/legal/src/lib/components/legal.component.ts",
+          "hash": "3400767733168481963",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "ui"
+          ]
+        },
+        {
+          "file": "libs/features/legal/src/lib/legal.routes.ts",
+          "hash": "165910133418848833",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        }
+      ],
+      "shell": [
+        {
+          "file": "apps/shell/project.json",
+          "hash": "14565407009921078639"
+        },
+        {
+          "file": "apps/shell/src/app/app.component.scss",
+          "hash": "14418247440041114887"
+        },
+        {
+          "file": "apps/shell/src/app/app.component.ts",
+          "hash": "10694859305891659098",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/shell/src/app/app.config.ts",
+          "hash": "7718446836174269867",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/platform-browser",
+            "npm:@angular/common",
+            "npm:@ngrx/store",
+            "npm:@ngrx/effects",
+            "npm:@ngrx/store-devtools",
+            "npm:@ngx-formly/core",
+            "npm:@ngx-formly/material",
+            "auth",
+            "core"
+          ]
+        },
+        {
+          "file": "apps/shell/src/app/app.routes.ts",
+          "hash": "2625219725320618060",
+          "deps": [
+            "npm:@angular/router",
+            "auth",
+            [
+              "features-dashboard",
+              "dynamic"
+            ],
+            [
+              "features-product-onboarding",
+              "dynamic"
+            ],
+            [
+              "features-versioning",
+              "dynamic"
+            ],
+            [
+              "features-destinations-board",
+              "dynamic"
+            ],
+            [
+              "features-qualification",
+              "dynamic"
+            ],
+            [
+              "features-reviewer-console",
+              "dynamic"
+            ],
+            [
+              "features-market-material",
+              "dynamic"
+            ],
+            [
+              "features-commercial",
+              "dynamic"
+            ],
+            [
+              "features-legal",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/shell/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/shell/src/environments/environment.prod.ts",
+          "hash": "5127062922158508369"
+        },
+        {
+          "file": "apps/shell/src/environments/environment.stage.ts",
+          "hash": "17096605960012527303"
+        },
+        {
+          "file": "apps/shell/src/environments/environment.ts",
+          "hash": "10710044089293683061"
+        },
+        {
+          "file": "apps/shell/src/favicon.ico",
+          "hash": "11469418366095193777"
+        },
+        {
+          "file": "apps/shell/src/index.html",
+          "hash": "2731766562865495771"
+        },
+        {
+          "file": "apps/shell/src/main.ts",
+          "hash": "14420088177726562137",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/shell/src/manifest.webmanifest",
+          "hash": "17420266972399016736"
+        },
+        {
+          "file": "apps/shell/src/robots.txt",
+          "hash": "2661324626124696959"
+        },
+        {
+          "file": "apps/shell/src/styles.scss",
+          "hash": "7602794044817747165"
+        },
+        {
+          "file": "apps/shell/tsconfig.app.json",
+          "hash": "17543202824379023760"
+        },
+        {
+          "file": "apps/shell/tsconfig.json",
+          "hash": "3770031112463920434"
+        }
+      ],
+      "features-versioning": [
+        {
+          "file": "libs/features/versioning/project.json",
+          "hash": "1218900404263364783"
+        },
+        {
+          "file": "libs/features/versioning/src/index.ts",
+          "hash": "7420800279136330357"
+        },
+        {
+          "file": "libs/features/versioning/src/lib/components/version-list.component.ts",
+          "hash": "14463392690203450159",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "ui"
+          ]
+        },
+        {
+          "file": "libs/features/versioning/src/lib/version.routes.ts",
+          "hash": "16282196768266934785",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        }
+      ],
+      "core": [
+        {
+          "file": "libs/core/project.json",
+          "hash": "4184497300536765728"
+        },
+        {
+          "file": "libs/core/src/index.ts",
+          "hash": "8187407451614763667"
+        },
+        {
+          "file": "libs/core/src/lib/constants.ts",
+          "hash": "7083395781111968731"
+        },
+        {
+          "file": "libs/core/src/lib/interceptors/error.interceptor.ts",
+          "hash": "13292898938450064229",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/core/src/lib/services/error.service.ts",
+          "hash": "10562039897744430328",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/core/src/lib/services/logger.service.ts",
+          "hash": "8275365616286838301",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        }
+      ],
+      "features-commercial": [
+        {
+          "file": "libs/features/commercial/project.json",
+          "hash": "11201996284636971051"
+        },
+        {
+          "file": "libs/features/commercial/src/index.ts",
+          "hash": "7383626592760717935"
+        },
+        {
+          "file": "libs/features/commercial/src/lib/commercial.routes.ts",
+          "hash": "3841076409299981594",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/features/commercial/src/lib/components/commercial.component.ts",
+          "hash": "307543897998402886",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "ui"
+          ]
+        }
+      ],
+      "auth": [
+        {
+          "file": "libs/auth/project.json",
+          "hash": "7326280092208754917"
+        },
+        {
+          "file": "libs/auth/src/index.ts",
+          "hash": "17294662533155370974"
+        },
+        {
+          "file": "libs/auth/src/lib/auth.interceptor.ts",
+          "hash": "8277325670933818439",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/auth.models.ts",
+          "hash": "11181151017200128592"
+        },
+        {
+          "file": "libs/auth/src/lib/auth.service.spec.ts",
+          "hash": "12722631560924968933",
+          "deps": [
+            "npm:vitest",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/auth.service.ts",
+          "hash": "5334858410291847814",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/directives/has-permission.directive.ts",
+          "hash": "9402941753381538983",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/guards/auth.guard.ts",
+          "hash": "1085111226112980394",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/guards/permission.guard.ts",
+          "hash": "4502366451175351550",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        }
+      ],
+      "features-market-material": [
+        {
+          "file": "libs/features/market-material/project.json",
+          "hash": "15741329873714673470"
+        },
+        {
+          "file": "libs/features/market-material/src/index.ts",
+          "hash": "9710019395111968896"
+        },
+        {
+          "file": "libs/features/market-material/src/lib/components/market-material.component.ts",
+          "hash": "10874887363963143829",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "ui"
+          ]
+        },
+        {
+          "file": "libs/features/market-material/src/lib/market-material.routes.ts",
+          "hash": "4977831794095133747",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        }
+      ],
+      "api": [
+        {
+          "file": "libs/api/project.json",
+          "hash": "1942961360549274016"
+        },
+        {
+          "file": "libs/api/src/index.ts",
+          "hash": "16888650989722422294"
+        },
+        {
+          "file": "libs/api/src/lib/models.ts",
+          "hash": "13699280991063415392"
+        },
+        {
+          "file": "libs/api/src/lib/services/product-api.service.ts",
+          "hash": "4107045268640245753",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/api/src/lib/services/questionnaire-api.service.ts",
+          "hash": "6336445166836363333",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/api/src/lib/services/version-api.service.ts",
+          "hash": "11427389621412412728",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        }
+      ],
+      "utils": [
+        {
+          "file": "libs/utils/project.json",
+          "hash": "4847694703921925404"
+        },
+        {
+          "file": "libs/utils/src/index.ts",
+          "hash": "3523966097558874422"
+        },
+        {
+          "file": "libs/utils/src/lib/date.utils.ts",
+          "hash": "6610598244415637305"
+        },
+        {
+          "file": "libs/utils/src/lib/upload.service.ts",
+          "hash": "12626910243001717178",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/utils/src/lib/websocket.service.ts",
+          "hash": "3212299844311558828",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        }
+      ],
+      "state": [
+        {
+          "file": "libs/state/project.json",
+          "hash": "7120534755637376781"
+        },
+        {
+          "file": "libs/state/src/index.ts",
+          "hash": "6370464104322684212"
+        },
+        {
+          "file": "libs/state/src/lib/app.state.ts",
+          "hash": "5414663720969467861"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".browserslistrc",
+        "hash": "15484663890910626960"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7659293824977274712"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "13469207043343598078"
+      },
+      {
+        "file": ".lintstagedrc.json",
+        "hash": "7800615088151390199"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16632889576259171752"
+      },
+      {
+        "file": "ARCHITECTURE.md",
+        "hash": "49093837390052280"
+      },
+      {
+        "file": "GETTING_STARTED.md",
+        "hash": "2321436110363184703"
+      },
+      {
+        "file": "PROJECT_SUMMARY.md",
+        "hash": "4658545996259925576"
+      },
+      {
+        "file": "README.md",
+        "hash": "14170324505236836826"
+      },
+      {
+        "file": "SECURE_ENVIRONMENT_SETUP.md",
+        "hash": "1778282433382020961"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16619652446219995986"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "5169983556429806966"
+      },
+      {
+        "file": "package.json",
+        "hash": "15745647265446298896"
+      },
+      {
+        "file": "playwright-report/index.html",
+        "hash": "2295816206298888688"
+      },
+      {
+        "file": "test-results/.last-run.json",
+        "hash": "11141884120100644736"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "1513514643851837896"
+      }
+    ]
+  }
+}

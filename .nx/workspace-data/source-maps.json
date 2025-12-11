@@ -1,0 +1,852 @@
+{
+  "apps/shell": {
+    "root": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.browser": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.prerender": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.ssr": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/shell-e2e": {
+    "root": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.executor": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.config": [
+      "apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/api": {
+    "root": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:data-access": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/auth": {
+    "root": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:core": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/core": {
+    "root": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:core": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/features/commercial": {
+    "root": [
+      "libs/features/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/features/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/features/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/features/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/features/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/features/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/features/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/features/commercial/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/features/dashboard": {
+    "root": [
+      "libs/features/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/features/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/features/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/features/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/features/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/features/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/features/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/features/dashboard/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/features/destinations-board": {
+    "root": [
+      "libs/features/destinations-board/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/features/destinations-board/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/features/destinations-board/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/features/destinations-board/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/features/destinations-board/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/features/destinations-board/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/features/destinations-board/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/features/destinations-board/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/features/legal": {
+    "root": [
+      "libs/features/legal/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/features/legal/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/features/legal/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/features/legal/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/features/legal/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/features/legal/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/features/legal/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/features/legal/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/features/market-material": {
+    "root": [
+      "libs/features/market-material/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/features/market-material/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/features/market-material/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/features/market-material/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/features/market-material/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/features/market-material/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/features/market-material/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/features/market-material/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/features/product-onboarding": {
+    "root": [
+      "libs/features/product-onboarding/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/features/product-onboarding/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/features/product-onboarding/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/features/product-onboarding/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/features/product-onboarding/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/features/product-onboarding/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/features/product-onboarding/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/features/product-onboarding/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/features/qualification": {
+    "root": [
+      "libs/features/qualification/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/features/qualification/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/features/qualification/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/features/qualification/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/features/qualification/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/features/qualification/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/features/qualification/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/features/qualification/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/features/reviewer-console": {
+    "root": [
+      "libs/features/reviewer-console/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/features/reviewer-console/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/features/reviewer-console/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/features/reviewer-console/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/features/reviewer-console/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/features/reviewer-console/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/features/reviewer-console/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/features/reviewer-console/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/features/versioning": {
+    "root": [
+      "libs/features/versioning/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/features/versioning/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/features/versioning/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/features/versioning/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/features/versioning/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/features/versioning/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/features/versioning/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/features/versioning/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/state": {
+    "root": [
+      "libs/state/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/state/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/state/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/state/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/state/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/state/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/state/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:state": [
+      "libs/state/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/ui": {
+    "root": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:ui": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.executor": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options.port": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options.configDir": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.executor": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.options": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.options.configDir": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.options.outputDir": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.storybook.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/utils": {
+    "root": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:util": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

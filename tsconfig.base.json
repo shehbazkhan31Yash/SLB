@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+    "lib": ["ES2022", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@alm-platform/api": ["libs/api/src/index.ts"],
+      "@alm-platform/auth": ["libs/auth/src/index.ts"],
+      "@alm-platform/core": ["libs/core/src/index.ts"],
+      "@alm-platform/state": ["libs/state/src/index.ts"],
+      "@alm-platform/ui": ["libs/ui/src/index.ts"],
+      "@alm-platform/utils": ["libs/utils/src/index.ts"],
+      "@alm-platform/features/commercial": ["libs/features/commercial/src/index.ts"],
+      "@alm-platform/features/dashboard": ["libs/features/dashboard/src/index.ts"],
+      "@alm-platform/features/destinations-board": ["libs/features/destinations-board/src/index.ts"],
+      "@alm-platform/features/legal": ["libs/features/legal/src/index.ts"],
+      "@alm-platform/features/market-material": ["libs/features/market-material/src/index.ts"],
+      "@alm-platform/features/product-onboarding": ["libs/features/product-onboarding/src/index.ts"],
+      "@alm-platform/features/qualification": ["libs/features/qualification/src/index.ts"],
+      "@alm-platform/features/reviewer-console": ["libs/features/reviewer-console/src/index.ts"],
+      "@alm-platform/features/versioning": ["libs/features/versioning/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

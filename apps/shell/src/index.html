@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>ALM Platform</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Enterprise Angular application for onboarding and qualification of software products"
+    />
+    <meta name="theme-color" content="#1976d2" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="apple-touch-icon" href="favicon.ico" />
+    <style>
+      body {
+        margin: 0;
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+        background: #fafafa;
+      }
+      app-root {
+        display: block;
+        min-height: 100vh;
+      }
+      .loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .loader h1 {
+        font-size: 24px;
+        font-weight: 400;
+        color: #333;
+        margin: 0 0 8px;
+      }
+      .loader p {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block"
+      rel="stylesheet"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block"
+        rel="stylesheet"
+      />
+    </noscript>
+  </head>
+  <body>
+    <app-root>
+      <div class="loader" role="status" aria-live="polite">
+        <div>
+          <h1>ALM Platform</h1>
+          <p>Loading...</p>
+        </div>
+      </div>
+    </app-root>
+  </body>
+</html>

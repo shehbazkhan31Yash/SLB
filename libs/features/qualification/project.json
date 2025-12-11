@@ -1,0 +1,8 @@
+{
+  "name": "features-qualification",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/features/qualification/src",
+  "prefix": "lib",
+  "tags": ["type:feature"],
+  "projectType": "library"
+}

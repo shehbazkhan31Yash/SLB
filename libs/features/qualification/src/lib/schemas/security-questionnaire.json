@@ -1,0 +1,136 @@
+{
+  "title": "Security Qualification Questionnaire",
+  "description": "Complete this questionnaire to qualify your product for security approval",
+  "fields": [
+    {
+      "key": "productInfo",
+      "type": "input",
+      "props": {
+        "label": "Product Name",
+        "placeholder": "Enter product name",
+        "required": true
+      }
+    },
+    {
+      "key": "version",
+      "type": "input",
+      "props": {
+        "label": "Version",
+        "placeholder": "e.g., 1.0.0",
+        "required": true
+      }
+    },
+    {
+      "key": "securityLevel",
+      "type": "select",
+      "props": {
+        "label": "Security Classification",
+        "required": true,
+        "options": [
+          { "value": "public", "label": "Public" },
+          { "value": "internal", "label": "Internal Use Only" },
+          { "value": "confidential", "label": "Confidential" },
+          { "value": "restricted", "label": "Restricted" }
+        ]
+      }
+    },
+    {
+      "key": "dataHandling",
+      "type": "radio",
+      "props": {
+        "label": "Does this product handle sensitive data?",
+        "required": true,
+        "options": [
+          { "value": "yes", "label": "Yes" },
+          { "value": "no", "label": "No" }
+        ]
+      }
+    },
+    {
+      "key": "encryptionMethod",
+      "type": "select",
+      "props": {
+        "label": "Encryption Method",
+        "required": true,
+        "options": [
+          { "value": "aes256", "label": "AES-256" },
+          { "value": "rsa", "label": "RSA" },
+          { "value": "tls", "label": "TLS 1.3" },
+          { "value": "none", "label": "None" }
+        ]
+      },
+      "expressions": {
+        "hide": "model.dataHandling !== 'yes'"
+      }
+    },
+    {
+      "key": "authenticationMethods",
+      "type": "checkbox",
+      "props": {
+        "label": "Authentication Methods Supported",
+        "required": true,
+        "options": [
+          { "value": "oauth", "label": "OAuth 2.0" },
+          { "value": "saml", "label": "SAML" },
+          { "value": "oidc", "label": "OpenID Connect" },
+          { "value": "basic", "label": "Basic Auth" },
+          { "value": "mfa", "label": "Multi-Factor Authentication" }
+        ]
+      }
+    },
+    {
+      "key": "vulnerabilityScan",
+      "type": "textarea",
+      "props": {
+        "label": "Vulnerability Scan Results Summary",
+        "placeholder": "Provide a summary of recent vulnerability scans",
+        "rows": 4,
+        "required": true
+      }
+    },
+    {
+      "key": "complianceStandards",
+      "type": "checkbox",
+      "props": {
+        "label": "Compliance Standards Met",
+        "options": [
+          { "value": "gdpr", "label": "GDPR" },
+          { "value": "hipaa", "label": "HIPAA" },
+          { "value": "soc2", "label": "SOC 2" },
+          { "value": "iso27001", "label": "ISO 27001" },
+          { "value": "pci", "label": "PCI DSS" }
+        ]
+      }
+    },
+    {
+      "key": "securityDocumentation",
+      "type": "file",
+      "props": {
+        "label": "Security Documentation",
+        "description": "Upload security architecture diagrams, threat models, etc.",
+        "required": true,
+        "multiple": true,
+        "accept": ".pdf,.docx,.png,.jpg"
+      }
+    },
+    {
+      "key": "penetrationTestReport",
+      "type": "file",
+      "props": {
+        "label": "Penetration Test Report",
+        "description": "Upload the latest penetration testing report",
+        "required": true,
+        "accept": ".pdf"
+      }
+    },
+    {
+      "key": "additionalNotes",
+      "type": "textarea",
+      "props": {
+        "label": "Additional Security Notes",
+        "placeholder": "Any additional security considerations or notes",
+        "rows": 3
+      }
+    }
+  ]
+}

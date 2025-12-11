@@ -1,0 +1,8 @@
+{
+  "name": "features-product-onboarding",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/features/product-onboarding/src",
+  "prefix": "lib",
+  "tags": ["type:feature"],
+  "projectType": "library"
+}
